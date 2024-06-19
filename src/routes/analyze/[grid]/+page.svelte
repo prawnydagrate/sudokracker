@@ -135,39 +135,39 @@
         margin: 1rem;
     }
 
-    .row-2,
-    .row-5 {
+    table#grid td.row-2,
+    table#grid td.row-5 {
         border-bottom-width: 3px;
     }
 
-    .row-3,
-    .row-6 {
+    table#grid td.row-3,
+    table#grid td.row-6 {
         border-top-width: 3px;
     }
 
-    .col-2,
-    .col-5 {
+    table#grid td.col-2,
+    table#grid td.col-5 {
         border-right-width: 3px;
     }
 
-    .col-3,
-    .col-6 {
+    table#grid td.col-3,
+    table#grid td.col-6 {
         border-left-width: 3px;
     }
 
-    .row-0 {
+    table#grid td.row-0 {
         border-top-width: 2px;
     }
 
-    .col-0 {
+    table#grid td.col-0 {
         border-left-width: 2px;
     }
 
-    .row-8 {
+    table#grid td.row-8 {
         border-bottom-width: 2px;
     }
 
-    .col-8 {
+    table#grid td.col-8 {
         border-right-width: 2px;
     }
 
