@@ -54,6 +54,7 @@
 
     function solveSudoku(): boolean {
         const grid = get(gridStore);
+        console.log([...grid.map((row) => [...row])]);
         let res = solveBacktracking(grid, 0, 0);
         if (res != null) {
             gridStore.set(grid);
